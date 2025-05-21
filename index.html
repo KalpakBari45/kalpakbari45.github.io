@@ -163,25 +163,26 @@
         </section>
 
         <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact__container bd-grid">
-                <div class="contact__info" style="margin-bottom: 1.5rem;">
-                    <p><strong>📞 Phone:</strong> <a href="tel:9422671203">9422671203</a></p>
-                    <p><strong>📧 Email:</strong> <a href="mailto:barikalpak@gmail.com">barikalpak@gmail.com</a></p>
-                    <p><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/kalpakbari" target="_blank">Kalpak Bari</a></p>
-                    <p><strong>📍 Location:</strong> Mumbai, Maharashtra, INDIA</p>
-                </div>
+       <section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact__container bd-grid">
+        <!-- Contact Information -->
+        <div class="contact__info" style="margin-bottom: 1.5rem;">
+            <p><strong>📞 Phone:</strong> <a href="tel:9422671203">9422671203</a></p>
+            <p><strong>📧 Email:</strong> <a href="mailto:barikalpak@gmail.com">barikalpak@gmail.com</a></p>
+            <p><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/kalpakbari" target="_blank">Kalpak Bari</a></p>
+            <p><strong>📍 Location:</strong> Mumbai, Maharashtra, INDIA</p>
+        </div>
 
-                <form action="https://formspree.io/f/xpwdngkd" method= "post" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input" required>
-                    <input type="email" placeholder="Email" class="contact__input" required>
-                    <textarea placeholder="Message" class="contact__input" rows="10" required></textarea>
-                    <input type="submit" value="Send" class="contact__button button">
-                </form>
-            </div>
-        </section>
-
+        <!-- Contact Form -->
+        <form action="https://formspree.io/f/xpwdngkd" method="POST" class="contact__form">
+            <input type="text" name="name" placeholder="Name" class="contact__input" required>
+            <input type="email" name="email" placeholder="Email" class="contact__input" required>
+            <textarea name="message" placeholder="Message" class="contact__input" rows="10" required></textarea>
+            <input type="submit" value="Send" class="contact__button button">
+        </form>
+    </div>
+</section>
     </main>
     <!-- Google Map -->
 <div style="margin-top: 2rem;">
